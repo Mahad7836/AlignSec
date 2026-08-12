@@ -1,0 +1,6 @@
+language,resource_tier,mean_ASR_across_clean_models_percent,min_ASR_across_clean_models_percent,max_ASR_across_clean_models_percent,clean_models,inference_scope
+English,anchor,36.25,1.25,67.5,3,descriptive language condition only; one language represents this resource-tier label
+French,high_resource,41.25,12.5,67.5,3,descriptive language condition only; one language represents this resource-tier label
+Arabic,medium_resource,46.666666666666664,7.5,88.75,3,descriptive language condition only; one language represents this resource-tier label
+Bengali,low_resource,41.666666666666664,7.5,72.5,3,descriptive language condition only; one language represents this resource-tier label
+Sindhi,very_low_resource,44.583333333333336,17.5,70.0,3,descriptive language condition only; one language represents this resource-tier label

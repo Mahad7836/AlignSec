@@ -1,0 +1,9 @@
+item,status,treatment
+Journal framing,addressed,Engineering evaluation of protected-context leakage and multilingual reliability; no defense implementation is claimed.
+Paired statistical design,addressed,Exact paired McNemar tests with explicit BH-FDR families.
+Cross-lingual construct validity,addressed by claim clarification,Shared English scaffold/base instruction with localized target-language objective; not claimed as fully native-language prompt injection.
+Resource-tier inference,addressed by scope restriction,Resource tiers are descriptive metadata only; no causal tier effect is estimated.
+Benign-control eligibility,addressed,Main comparison eligibility is computed from recomputed zero benign canary leaks and zero invalid outputs.
+Exact leakage endpoint,addressed,Primary outcome is normalized exact-canary disclosure; transformed/semantic leakage is outside scope.
+4-bit quantization,disclosed limitation,Inference used 4-bit NF4 bitsandbytes quantization for Kaggle T4 feasibility; full-precision equivalence is not claimed.
+Synthetic canary proxy,disclosed limitation,"Exact canary leakage is a controlled proxy, not a complete measurement of real enterprise secret leakage."

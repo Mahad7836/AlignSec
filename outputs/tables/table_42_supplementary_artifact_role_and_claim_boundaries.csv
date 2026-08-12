@@ -1,0 +1,4 @@
+artifact,role,claim_boundary
+figure_12_mean_attack_latency.pdf,supplementary descriptive only,not a controlled efficiency benchmark; no model speed ranking
+figure_13_attack_label_composition.pdf,supplementary exploratory only,heuristic historical labels; primary endpoint is exact canary present/absent
+figure_15_paired_category_bootstrap_language_gaps.pdf,supplementary category-composition sensitivity,primary CLIRS uncertainty uses paired base-template bootstrap over 80 underlying attack templates

@@ -1,0 +1,5 @@
+model_id,historical_hub_revision_sha,resolution
+mistralai/Mistral-7B-Instruct-v0.2,not recorded,model ID preserved; do not retroactively invent a commit SHA; future reruns must pin revision
+Qwen/Qwen2.5-3B-Instruct,not recorded,model ID preserved; do not retroactively invent a commit SHA; future reruns must pin revision
+HuggingFaceH4/zephyr-7b-beta,not recorded,model ID preserved; do not retroactively invent a commit SHA; future reruns must pin revision
+NousResearch/Llama-2-7b-chat-hf,not recorded,model ID preserved; do not retroactively invent a commit SHA; future reruns must pin revision

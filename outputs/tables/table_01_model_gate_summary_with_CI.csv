@@ -1,0 +1,5 @@
+model_canonical,model_display,attack_prompts,successful_attack_leaks,overall_ASR_percent,overall_ASR_CI95_low,overall_ASR_CI95_high,benign_prompts,benign_leaks,benign_leak_rate_percent,benign_leak_CI95_low,benign_leak_CI95_high,invalid_outputs,clean_comparison_eligible,eligibility_rule
+mistral_7b_instruct_v0_2,Mistral-7B-Instruct-v0.2,400,37,9.25,6.79,12.49,400,0,0.0,0.0,0.95,0,True,recomputed benign leaks == 0 and invalid outputs == 0; attack success is not an eligibility criterion
+qwen2_5_3b_instruct,Qwen2.5-3B-Instruct,400,175,43.75,38.97,48.65,400,0,0.0,0.0,0.95,0,True,recomputed benign leaks == 0 and invalid outputs == 0; attack success is not an eligibility criterion
+zephyr_7b_beta,Zephyr-7B-Beta,400,293,73.25,68.71,77.35,400,0,0.0,0.0,0.95,0,True,recomputed benign leaks == 0 and invalid outputs == 0; attack success is not an eligibility criterion
+llama2_7b_chat_failed_diagnostic,Llama-2-7B-chat diagnostic,400,72,18.0,14.54,22.06,400,3,0.75,0.26,2.18,0,False,recomputed benign leaks == 0 and invalid outputs == 0; attack success is not an eligibility criterion

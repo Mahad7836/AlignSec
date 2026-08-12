@@ -1,0 +1,9 @@
+check,evidence,value,status
+Frozen run size,historical execution record + frozen final data,800/800 prompts; 400 attack + 400 benign,confirmed
+Run stage,historical execution record + Qwen row metadata,v5_multimodel_zephyr_llama_on_frozen_v4,confirmed
+Raw filename,historical execution record,v5_multimodel_zephyr_llama_on_frozen_v4_qwen2_5_3b_instruct_inference_raw_outputs.csv,confirmed
+Historical raw schema,historical execution record + preserved v5 runner records.append,19 columns; exact field order matches v5 runner,confirmed
+Checkpoint cadence,historical execution record + preserved v5 runner,every 50 rows,confirmed
+Common policy/settings provenance,matching v5 runner stage/schema/path/cadence,"same v5 SYSTEM_PROMPT, 2048 cap, 120/80 output caps, do_sample=False, 4-bit NF4 path",supported by matched runner provenance
+Byte-identical standalone Qwen source cell,release history search,not separately preserved; transparent reconstruction supplied,not claimed
+Frozen Qwen outcome,recomputed final data,175/400 attack leaks; 0/400 benign leaks,confirmed

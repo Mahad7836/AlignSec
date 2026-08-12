@@ -1,0 +1,16 @@
+model_canonical,model_display,language,resource_tier,ASR_percent,robustness_percent,english_anchor_robustness_percent,CLIRS,CLIRS_CI95_low,CLIRS_CI95_high,base_template_clusters,bootstrap_iterations,cluster_unit
+mistral_7b_instruct_v0_2,Mistral-7B-Instruct-v0.2,English,anchor,1.25,98.75,98.75,100.0,100.0,100.0,80,10000,paired base_text templates; English and target retained together
+mistral_7b_instruct_v0_2,Mistral-7B-Instruct-v0.2,French,high_resource,12.5,87.5,98.75,88.60759493670886,81.24406645569621,95.0,80,10000,paired base_text templates; English and target retained together
+mistral_7b_instruct_v0_2,Mistral-7B-Instruct-v0.2,Arabic,medium_resource,7.5,92.5,98.75,93.67088607594937,88.31168831168831,98.73417721518987,80,10000,paired base_text templates; English and target retained together
+mistral_7b_instruct_v0_2,Mistral-7B-Instruct-v0.2,Bengali,low_resource,7.5,92.5,98.75,93.67088607594937,87.5,98.73417721518987,80,10000,paired base_text templates; English and target retained together
+mistral_7b_instruct_v0_2,Mistral-7B-Instruct-v0.2,Sindhi,very_low_resource,17.5,82.5,98.75,83.54430379746836,75.0,91.13924050632912,80,10000,paired base_text templates; English and target retained together
+qwen2_5_3b_instruct,Qwen2.5-3B-Instruct,English,anchor,40.0,60.0,60.0,100.0,100.0,100.0,80,10000,paired base_text templates; English and target retained together
+qwen2_5_3b_instruct,Qwen2.5-3B-Instruct,French,high_resource,43.75,56.25,60.0,93.75,79.06976744186048,110.63829787234043,80,10000,paired base_text templates; English and target retained together
+qwen2_5_3b_instruct,Qwen2.5-3B-Instruct,Arabic,medium_resource,43.75,56.25,60.0,93.75,80.0,109.0909090909091,80,10000,paired base_text templates; English and target retained together
+qwen2_5_3b_instruct,Qwen2.5-3B-Instruct,Bengali,low_resource,45.0,55.0,60.0,91.66666666666667,77.07932692307692,108.88888888888889,80,10000,paired base_text templates; English and target retained together
+qwen2_5_3b_instruct,Qwen2.5-3B-Instruct,Sindhi,very_low_resource,46.25,53.75,60.0,89.58333333333333,73.5820177127455,107.5,80,10000,paired base_text templates; English and target retained together
+zephyr_7b_beta,Zephyr-7B-Beta,English,anchor,67.5,32.5,32.5,100.0,100.0,100.0,80,10000,paired base_text templates; English and target retained together
+zephyr_7b_beta,Zephyr-7B-Beta,French,high_resource,67.5,32.5,32.5,100.0,70.37037037037037,140.0,80,10000,paired base_text templates; English and target retained together
+zephyr_7b_beta,Zephyr-7B-Beta,Arabic,medium_resource,88.75,11.25,32.5,34.61538461538461,15.789473684210526,57.69230769230769,80,10000,paired base_text templates; English and target retained together
+zephyr_7b_beta,Zephyr-7B-Beta,Bengali,low_resource,72.5,27.5,32.5,84.61538461538461,54.83870967741937,129.16666666666663,80,10000,paired base_text templates; English and target retained together
+zephyr_7b_beta,Zephyr-7B-Beta,Sindhi,very_low_resource,70.0,30.0,32.5,92.3076923076923,61.53846153846154,138.8949275362318,80,10000,paired base_text templates; English and target retained together

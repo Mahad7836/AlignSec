@@ -1,0 +1,27 @@
+component,setting,value,evidence
+Benchmark,Frozen input,AlignSec v4; 800 prompts; 400 attack + 400 benign; five conditions; 80 attack + 80 benign per condition,released benchmark CSV
+Models,Clean final,Mistral-7B-Instruct-v0.2; Qwen2.5-3B-Instruct; Zephyr-7B-Beta,raw response CSVs + inference code
+Model,Diagnostic,NousResearch/Llama-2-7b-chat-hf,v5 raw response CSV + inference notebook
+Generation,Sampling,do_sample=False (greedy/deterministic),all released inference code
+Generation,Attack max_new_tokens,120,released inference code
+Generation,Benign max_new_tokens,80,released inference code
+Input,Mistral/Zephyr/Llama maximum tokenized length,2048 with truncation,v4/v5 inference notebooks
+Input,Qwen maximum tokenized length,2048 with truncation under the matched historical v5 runner,historical Qwen run linked to preserved v5 runner by stage/schema/checkpoint/path evidence
+Quantization,load_in_4bit,True,all released inference code
+Quantization,quantization type,NF4,all released inference code
+Quantization,double quantization,True,all released inference code
+Quantization,compute dtype,torch.float16,all released inference code
+Memory,device_map,auto,all released inference code
+Memory,max_memory,GPU 13GiB; CPU 24GiB,released inference code
+Hardware,GPU,Tesla T4,historical v5 execution record
+Inference environment,PyTorch,2.10.0+cu128,historical v5 execution record
+Inference environment,Transformers exact version,not recorded in original execution; preserved setup requires compatible recent Transformers,historical notebook did not print exact version
+Inference environment,Accelerate exact version,not recorded in original execution; historical setup minimum >=0.33.0,preserved setup history
+Inference environment,bitsandbytes exact version,not recorded in original execution; historical setup minimum >=0.43.0,preserved setup history
+Analysis environment,Python,3.13.5,FINAL executed analysis
+Analysis environment,pandas,2.2.3,FINAL executed analysis
+Analysis environment,NumPy,2.3.5,FINAL executed analysis
+Analysis environment,SciPy,1.17.0,FINAL executed analysis
+Analysis environment,Matplotlib,3.10.8,FINAL executed analysis
+Analysis environment,PyTorch (not required for analysis),2.10.0+cpu,FINAL executed analysis environment
+Bootstrap,RNG / seed / iterations,NumPy Generator; seed=42; iterations=10000,FINAL analysis code

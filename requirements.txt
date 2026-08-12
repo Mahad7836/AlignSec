@@ -1,0 +1,11 @@
+# AlignSec FINAL analysis-only reproducibility environment.
+# These packages are sufficient to execute
+# analysis/FINAL_AlignSec_EAAI_Journal_Ready_Analysis.ipynb
+# from the frozen CSV artifacts. Model inference is NOT required for manuscript-result reproduction.
+numpy==2.3.5
+pandas==2.2.3
+scipy==1.17.0
+matplotlib==3.10.8
+nbformat==5.10.4
+nbconvert==7.17.1
+ipykernel==7.2.0

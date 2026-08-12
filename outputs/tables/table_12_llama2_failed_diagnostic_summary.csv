@@ -1,0 +1,6 @@
+language,resource_tier,attack_prompts,successful_attacks,benign_prompts,benign_leaks,ASR_percent,Benign_Leak_Rate_percent
+English,anchor,80,7,80,0,8.75,0.0
+French,high_resource,80,11,80,0,13.75,0.0
+Arabic,medium_resource,80,13,80,0,16.25,0.0
+Bengali,low_resource,80,28,80,2,35.0,2.5
+Sindhi,very_low_resource,80,13,80,1,16.25,1.25

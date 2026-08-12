@@ -1,0 +1,7 @@
+supplementary_item,recommended_filename,purpose,include_in_submission
+Final executed analysis notebook,analysis/FINAL_AlignSec_EAAI_Journal_Ready_Analysis_EXECUTED.ipynb,"Recomputes all final metrics, paired statistics, category ASR, CLIRS uncertainty, figures and tables.",Yes
+Frozen final analysis CSV,data/final_results.csv,Primary FINAL analysis input verified by SHA-256.,Yes
+Frozen v4 benchmark,data/benchmark/frozen_alignsec_v4_benchmark.csv,Defines all 800 benchmark items.,Yes
+Raw/canonical response CSVs,data/raw_responses/*.csv,Independent verification of model outputs and leakage outcomes.,Yes
+Original inference code,inference/*,"Documents Mistral, Zephyr, Llama-2 and Qwen response generation.",Yes
+Environment + provenance metadata,metadata/*; requirements.txt; environment.yml,Documents artifact identity and reproducibility constraints.,Yes

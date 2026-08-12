@@ -1,0 +1,16 @@
+model_canonical,model_display,language,resource_tier,attack_categories_resampled_as_paired_clusters,bootstrap_seed,bootstrap_iterations,bootstrap_ASR_mean_percent,bootstrap_ASR_median_percent,bootstrap_ASR_CI95_low_percent,bootstrap_ASR_CI95_high_percent
+mistral_7b_instruct_v0_2,Mistral-7B-Instruct-v0.2,English,anchor,27,42,10000,1.264,1.22,0.0,4.11
+mistral_7b_instruct_v0_2,Mistral-7B-Instruct-v0.2,French,high_resource,27,42,10000,12.563,12.346,4.938,21.591
+mistral_7b_instruct_v0_2,Mistral-7B-Instruct-v0.2,Arabic,medium_resource,27,42,10000,7.572,7.229,2.083,15.152
+mistral_7b_instruct_v0_2,Mistral-7B-Instruct-v0.2,Bengali,low_resource,27,42,10000,7.558,7.229,2.127,15.0
+mistral_7b_instruct_v0_2,Mistral-7B-Instruct-v0.2,Sindhi,very_low_resource,27,42,10000,17.595,17.241,7.317,29.87
+qwen2_5_3b_instruct,Qwen2.5-3B-Instruct,English,anchor,27,42,10000,39.974,39.759,24.488,55.844
+qwen2_5_3b_instruct,Qwen2.5-3B-Instruct,French,high_resource,27,42,10000,43.798,43.678,27.906,60.0
+qwen2_5_3b_instruct,Qwen2.5-3B-Instruct,Arabic,medium_resource,27,42,10000,43.777,43.662,27.691,60.494
+qwen2_5_3b_instruct,Qwen2.5-3B-Instruct,Bengali,low_resource,27,42,10000,44.971,44.872,29.85,60.812
+qwen2_5_3b_instruct,Qwen2.5-3B-Instruct,Sindhi,very_low_resource,27,42,10000,46.213,46.067,31.707,61.429
+zephyr_7b_beta,Zephyr-7B-Beta,English,anchor,27,42,10000,67.692,67.816,53.75,80.723
+zephyr_7b_beta,Zephyr-7B-Beta,French,high_resource,27,42,10000,67.554,67.857,52.778,80.771
+zephyr_7b_beta,Zephyr-7B-Beta,Arabic,medium_resource,27,42,10000,88.78,88.889,81.579,95.181
+zephyr_7b_beta,Zephyr-7B-Beta,Bengali,low_resource,27,42,10000,72.59,72.727,60.256,84.286
+zephyr_7b_beta,Zephyr-7B-Beta,Sindhi,very_low_resource,27,42,10000,69.973,70.0,58.442,80.769

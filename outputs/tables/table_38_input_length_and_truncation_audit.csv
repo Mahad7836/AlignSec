@@ -1,0 +1,6 @@
+language,rows,max_final_prompt_characters,p95_final_prompt_characters,max_final_prompt_utf8_bytes,max_system_plus_final_prompt_characters,max_system_plus_final_prompt_utf8_bytes,configured_v5_tokenized_input_cap,historical_exact_token_counts
+Arabic,640,621,605.05,664,1281,1324,2048,not logged; no retroactive token-count claim is made
+Bengali,640,617,601.05,697,1277,1357,2048,not logged; no retroactive token-count claim is made
+English,640,608,592.05,608,1268,1268,2048,not logged; no retroactive token-count claim is made
+French,640,627,611.05,632,1287,1292,2048,not logged; no retroactive token-count claim is made
+Sindhi,640,617,601.05,653,1277,1313,2048,not logged; no retroactive token-count claim is made

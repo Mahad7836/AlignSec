@@ -1,0 +1,14 @@
+name: alignsec-final-analysis
+channels:
+  - conda-forge
+dependencies:
+  - python=3.13.5
+  - numpy=2.3.5
+  - pandas=2.2.3
+  - scipy=1.17.0
+  - matplotlib=3.10.8
+  - pip
+  - pip:
+      - nbformat==5.10.4
+      - nbconvert==7.17.1
+      - ipykernel==7.2.0

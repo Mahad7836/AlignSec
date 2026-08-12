@@ -1,0 +1,4 @@
+model_canonical,model_display,attack_prompts,base_template_clusters,overall_ASR_percent,cluster_bootstrap_CI95_low,cluster_bootstrap_CI95_high,cluster_unit,bootstrap_iterations,seed
+mistral_7b_instruct_v0_2,Mistral-7B-Instruct-v0.2,400,80,9.25,5.5,13.750000000000002,base_text (all five language conditions retained together),10000,142
+qwen2_5_3b_instruct,Qwen2.5-3B-Instruct,400,80,43.75,34.75,52.5,base_text (all five language conditions retained together),10000,143
+zephyr_7b_beta,Zephyr-7B-Beta,400,80,73.25,66.75,79.5,base_text (all five language conditions retained together),10000,144

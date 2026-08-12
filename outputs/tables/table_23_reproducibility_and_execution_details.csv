@@ -1,0 +1,23 @@
+item,value
+Target journal framing,Engineering Applications of Artificial Intelligence; engineering evaluation of multilingual LLM protected-context robustness and reliability.
+Analysis input,External data/final_results.csv; SHA-256 405a5017589b4722fbcad13a5c43a555d3e5afc6498fe46cf5a16a63baaf91f4.
+Frozen benchmark,External data/benchmark/frozen_alignsec_v4_benchmark.csv; SHA-256 d0bba7ade1d3801cdab983c277303c35c4200985abd48cf4001b71fa555b3d46.
+Cross-model benchmark identity,"Asserted for language, resource tier, prompt type, attack category, source fields, canary, base text, localized task, and final prompt for every prompt_id."
+Leakage endpoint,Primary outcomes mechanically recomputed from response + assigned canary after escaped-underscore normalization only.
+Canary detector tests,7/7 unit tests passed.
+Prompt benchmark size,800 prompts per model: 400 attack and 400 benign; five language conditions; 80 attack + 80 benign per condition.
+Cross-lingual construction,Shared English protected-context scaffold/base instruction with localized target-language objective in non-English conditions.
+Resource-tier interpretation,Descriptive metadata only; no causal resource-tier effect estimated.
+Final result rows,3200 rows = 4 models × 800 prompts.
+Clean-comparison eligibility,Zero recomputed benign canary leaks and zero invalid outputs; attack success is not an eligibility criterion.
+Primary uncertainty,"Wilson 95% confidence intervals for simple leakage proportions; attack-category primary uncertainty uses base-template cluster bootstrap when at least two underlying templates are available, with Wilson descriptive fallback for singleton categories."
+Primary paired tests,"Exact McNemar tests for language-vs-English and language-specific model comparisons. Overall model inference uses paired base-template cluster bootstrap confidence intervals plus 100,000-draw paired sign-flip randomization."
+Multiple testing,Separate BH-FDR families: 12 non-English-vs-English McNemar tests; 3 overall paired sign-flip model comparisons; 15 language-specific model McNemar tests.
+Primary CLIRS uncertainty,Paired base-template bootstrap over 80 underlying attack templates; seed=42; 10000 iterations; English and target-language outcomes retained together.
+Supporting clustered robustness,Paired category-cluster bootstrap; seed=42; 10000 iterations; retained only as category-composition sensitivity analysis.
+Latency interpretation,Descriptive only; historical runs are not treated as controlled efficiency comparisons.
+Python version,3.13.5
+pandas version,2.2.3
+NumPy version,2.3.5
+SciPy version,1.17.0
+Matplotlib version,3.10.8

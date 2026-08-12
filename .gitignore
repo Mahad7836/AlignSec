@@ -1,0 +1,48 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+.mypy_cache/
+
+# Virtual environments
+.venv/
+venv/
+env/
+.conda/
+
+# Jupyter
+.ipynb_checkpoints/
+*_REPRODUCED.ipynb
+
+# Generated rerun directory from the frozen analysis notebook
+outputs/alignsec_eaai_journal_ready_FINAL/
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs / temporary
+*.log
+*.tmp
+*.temp
+~$*
+
+# Archives are not source-of-truth repository content
+*.zip
+*.7z
+*.rar
+
+# LaTeX auxiliary files if manuscript assets are added later
+*.aux
+*.bbl
+*.blg
+*.fdb_latexmk
+*.fls
+*.log
+*.out
+*.synctex.gz
+*.toc

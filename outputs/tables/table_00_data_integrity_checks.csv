@@ -1,0 +1,13 @@
+check,value
+Rows in frozen final analysis set,3200
+Duplicate model-prompt rows,0
+Unique prompt IDs,800
+Unique canaries,800
+Label-canary mismatches,0
+Models found,4
+Language conditions found,5
+Attack prompts per model,400
+Benign prompts per model,400
+Frozen benchmark rows,800
+Benchmark content mismatches across checked fields,0
+Canary-detector unit tests passed,7

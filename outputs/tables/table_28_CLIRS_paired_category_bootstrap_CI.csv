@@ -1,0 +1,16 @@
+model_canonical,model_display,language,CLIRS_observed,bootstrap_seed,bootstrap_iterations,valid_bootstrap_draws,zero_English_robustness_draws,CLIRS_bootstrap_mean,CLIRS_bootstrap_median,CLIRS_CI95_low,CLIRS_CI95_high,denominator_stability_flag
+mistral_7b_instruct_v0_2,Mistral-7B-Instruct-v0.2,English,100.0,42,10000,10000,0,100.0,100.0,100.0,100.0,stable
+mistral_7b_instruct_v0_2,Mistral-7B-Instruct-v0.2,French,88.61,42,10000,10000,0,88.542,88.75,80.281,95.349,stable
+mistral_7b_instruct_v0_2,Mistral-7B-Instruct-v0.2,Arabic,93.67,42,10000,10000,0,93.595,93.827,87.302,98.667,stable
+mistral_7b_instruct_v0_2,Mistral-7B-Instruct-v0.2,Bengali,93.67,42,10000,10000,0,93.627,93.976,86.485,98.81,stable
+mistral_7b_instruct_v0_2,Mistral-7B-Instruct-v0.2,Sindhi,83.54,42,10000,10000,0,83.431,83.75,72.059,92.857,stable
+qwen2_5_3b_instruct,Qwen2.5-3B-Instruct,English,100.0,42,10000,10000,0,100.0,100.0,100.0,100.0,stable
+qwen2_5_3b_instruct,Qwen2.5-3B-Instruct,French,93.75,42,10000,10000,0,93.799,93.878,77.778,110.812,stable
+qwen2_5_3b_instruct,Qwen2.5-3B-Instruct,Arabic,93.75,42,10000,10000,0,93.692,93.878,79.545,106.818,stable
+qwen2_5_3b_instruct,Qwen2.5-3B-Instruct,Bengali,91.67,42,10000,10000,0,91.977,91.489,75.0,111.765,stable
+qwen2_5_3b_instruct,Qwen2.5-3B-Instruct,Sindhi,89.58,42,10000,10000,0,90.07,89.362,71.795,112.5,stable
+zephyr_7b_beta,Zephyr-7B-Beta,English,100.0,42,10000,10000,0,100.0,100.0,100.0,100.0,stable
+zephyr_7b_beta,Zephyr-7B-Beta,French,100.0,42,10000,10000,0,101.892,100.0,70.0,140.909,stable
+zephyr_7b_beta,Zephyr-7B-Beta,Arabic,34.62,42,10000,10000,0,35.117,34.615,17.391,55.556,stable
+zephyr_7b_beta,Zephyr-7B-Beta,Bengali,84.62,42,10000,10000,0,87.42,85.185,50.0,136.842,stable
+zephyr_7b_beta,Zephyr-7B-Beta,Sindhi,92.31,42,10000,10000,0,95.759,94.202,59.091,141.176,stable

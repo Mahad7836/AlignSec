@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+message: "If you use AlignSec, please cite the software repository and the associated paper once available."
+title: "AlignSec: Reproducible evaluation of cross-lingual prompt-injection protected-context leakage in aligned large language models"
+type: software
+authors:
+  - family-names: "Aqeel"
+    given-names: "Mahad"
+repository-code: "https://github.com/Mahad7836/AlignSec"
+version: "0.1.0"
+date-released: "2026-08-12"
+keywords:
+  - large language models
+  - prompt injection
+  - multilingual security
+  - protected-context leakage
+  - security evaluation
+  - adversarial robustness
+license: MIT

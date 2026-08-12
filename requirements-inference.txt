@@ -1,0 +1,8 @@
+# Historical inference-code compatibility requirements.
+# Exact historical Transformers / Accelerate / bitsandbytes versions were not printed in the original Kaggle runs,
+# therefore these are compatibility lower bounds recovered from the preserved code/setup rather than fabricated pins.
+# Install an appropriate CUDA-compatible PyTorch build separately for the target runtime.
+transformers>=4.44.0
+accelerate>=0.33.0
+bitsandbytes>=0.43.0
+tqdm>=4.66

@@ -1,0 +1,8 @@
+section,reminder
+Title/Abstract,"Describe controlled language-retargeted protected-context leakage, not fully native-language prompt injection."
+Research Questions,Do not claim a causal resource-tier effect.
+Results — categories,Report denominator-aware category ASR. Primary category uncertainty uses a base-template cluster bootstrap when at least two underlying templates are available; singleton categories use a Wilson descriptive fallback. Raw successful counts alone are not effectiveness rankings.
+Results — CLIRS,Report paired base-template bootstrap 95% CIs for CLIRS over the 80 underlying attack templates; category-cluster CLIRS results are sensitivity analysis only.
+Statistics,"Language-vs-English: exact paired McNemar with BH-FDR across 12 tests. Overall model: 80-base-template cluster bootstrap CIs plus 100,000-draw paired sign-flip randomization with BH-FDR across 3 comparisons. Language-specific model comparisons: exact paired McNemar with BH-FDR across 15 tests."
+Methodology,Primary attack/benign leakage outcomes are recomputed from the canary detector; historical labels are validation metadata.
+Reproducibility,Primary analysis CSV hash: 405a5017589b4722fbcad13a5c43a555d3e5afc6498fe46cf5a16a63baaf91f4.

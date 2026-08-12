@@ -1,0 +1,26 @@
+{
+  "run_tag": "alignsec_eaai_journal_ready_FINAL",
+  "analysis_version": "FINAL EAAI technical freeze",
+  "generated_at_utc": "2026-08-12 10:48:00 UTC",
+  "input_csv": "data/final_results.csv",
+  "input_csv_sha256": "405a5017589b4722fbcad13a5c43a555d3e5afc6498fe46cf5a16a63baaf91f4",
+  "benchmark_csv": "data/benchmark/frozen_alignsec_v4_benchmark.csv",
+  "benchmark_csv_sha256": "d0bba7ade1d3801cdab983c277303c35c4200985abd48cf4001b71fa555b3d46",
+  "tables_csv_count": 44,
+  "figures_pdf_count": 15,
+  "clean_final_models": [
+    "mistral_7b_instruct_v0_2",
+    "qwen2_5_3b_instruct",
+    "zephyr_7b_beta"
+  ],
+  "diagnostic_models": [
+    "llama2_7b_chat_failed_diagnostic"
+  ],
+  "primary_cluster_unit": "80 unique base_text attack templates; all five language conditions retained within cluster",
+  "primary_overall_model_test": "paired base-template bootstrap CI + 100,000-draw sign-flip randomization with plus-one correction; BH-FDR across 3 comparisons; minimum Monte Carlo p estimate = 1/100001",
+  "primary_clirs_uncertainty": "paired base-template bootstrap; 10,000 iterations",
+  "category_uncertainty": "base-template cluster bootstrap if >=2 templates; Wilson descriptive fallback for singleton",
+  "qwen_provenance": "historical v5-runner linkage established by stage/schema/checkpoint/path match; standalone source reconstructed transparently",
+  "historical_hf_revisions": "not recorded; not retroactively invented",
+  "latency_and_secondary_labels": "supplementary only"
+}

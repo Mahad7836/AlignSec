@@ -1,0 +1,16 @@
+comparison_scope,model_A,model_A_display,model_B,model_B_display,paired_prompts,ASR_A_percent,ASR_B_percent,ASR_A_minus_B_points,A_only_success_pairs,B_only_success_pairs,p_value_exact_McNemar,FDR_family,q_value_BH_FDR,significant_at_0_05_FDR
+English,mistral_7b_instruct_v0_2,Mistral-7B-Instruct-v0.2,qwen2_5_3b_instruct,Qwen2.5-3B-Instruct,80,1.25,40.0,-38.75,0,31,9.313225746154785e-10,15 language-specific paired model comparisons,2.3283064365386963e-09,True
+English,mistral_7b_instruct_v0_2,Mistral-7B-Instruct-v0.2,zephyr_7b_beta,Zephyr-7B-Beta,80,1.25,67.5,-66.25,0,53,2.220446049250313e-16,15 language-specific paired model comparisons,1.6653345369377348e-15,True
+English,qwen2_5_3b_instruct,Qwen2.5-3B-Instruct,zephyr_7b_beta,Zephyr-7B-Beta,80,40.0,67.5,-27.5,6,28,0.00019512558355927467,15 language-specific paired model comparisons,0.00024390697944909334,True
+French,mistral_7b_instruct_v0_2,Mistral-7B-Instruct-v0.2,qwen2_5_3b_instruct,Qwen2.5-3B-Instruct,80,12.5,43.75,-31.25,4,29,1.0928604751825333e-05,15 language-specific paired model comparisons,1.6392907127738e-05,True
+French,mistral_7b_instruct_v0_2,Mistral-7B-Instruct-v0.2,zephyr_7b_beta,Zephyr-7B-Beta,80,12.5,67.5,-55.0,0,44,1.1368683772161603e-13,15 language-specific paired model comparisons,4.263256414560601e-13,True
+French,qwen2_5_3b_instruct,Qwen2.5-3B-Instruct,zephyr_7b_beta,Zephyr-7B-Beta,80,43.75,67.5,-23.75,11,30,0.00432400493446039,15 language-specific paired model comparisons,0.00432400493446039,True
+Arabic,mistral_7b_instruct_v0_2,Mistral-7B-Instruct-v0.2,qwen2_5_3b_instruct,Qwen2.5-3B-Instruct,80,7.5,43.75,-36.25,1,30,2.9802322387695312e-08,15 language-specific paired model comparisons,6.386211940220424e-08,True
+Arabic,mistral_7b_instruct_v0_2,Mistral-7B-Instruct-v0.2,zephyr_7b_beta,Zephyr-7B-Beta,80,7.5,88.75,-81.25,0,65,5.421010862427522e-20,15 language-specific paired model comparisons,8.131516293641283e-19,True
+Arabic,qwen2_5_3b_instruct,Qwen2.5-3B-Instruct,zephyr_7b_beta,Zephyr-7B-Beta,80,43.75,88.75,-45.0,5,41,4.405936238072172e-08,15 language-specific paired model comparisons,8.261130446385323e-08,True
+Bengali,mistral_7b_instruct_v0_2,Mistral-7B-Instruct-v0.2,qwen2_5_3b_instruct,Qwen2.5-3B-Instruct,80,7.5,45.0,-37.5,2,32,6.938353180885315e-08,15 language-specific paired model comparisons,1.1563921968142192e-07,True
+Bengali,mistral_7b_instruct_v0_2,Mistral-7B-Instruct-v0.2,zephyr_7b_beta,Zephyr-7B-Beta,80,7.5,72.5,-65.0,1,53,6.106226635438361e-15,15 language-specific paired model comparisons,3.0531133177191805e-14,True
+Bengali,qwen2_5_3b_instruct,Qwen2.5-3B-Instruct,zephyr_7b_beta,Zephyr-7B-Beta,80,45.0,72.5,-27.5,10,32,0.0009406740282429382,15 language-specific paired model comparisons,0.0010853931095110825,True
+Sindhi,mistral_7b_instruct_v0_2,Mistral-7B-Instruct-v0.2,qwen2_5_3b_instruct,Qwen2.5-3B-Instruct,80,17.5,46.25,-28.75,5,28,6.618769839406013e-05,15 language-specific paired model comparisons,9.025595235553655e-05,True
+Sindhi,mistral_7b_instruct_v0_2,Mistral-7B-Instruct-v0.2,zephyr_7b_beta,Zephyr-7B-Beta,80,17.5,70.0,-52.5,1,43,5.115907697472721e-12,15 language-specific paired model comparisons,1.5347723092418164e-11,True
+Sindhi,qwen2_5_3b_instruct,Qwen2.5-3B-Instruct,zephyr_7b_beta,Zephyr-7B-Beta,80,46.25,70.0,-23.75,11,30,0.00432400493446039,15 language-specific paired model comparisons,0.00432400493446039,True

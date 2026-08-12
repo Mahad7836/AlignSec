@@ -1,0 +1,9 @@
+component,historical_value,evidence_status
+GPU,Tesla T4,recorded in historical execution output
+PyTorch,2.10.0+cu128,recorded in historical execution output
+Transformers,exact version not recorded; setup required >=4.44.0,minimum recoverable from earlier setup code; exact version not invented
+Accelerate,exact version not recorded; setup required >=0.33.0,minimum recoverable from earlier setup code; exact version not invented
+bitsandbytes,exact version not recorded; setup required >=0.43.0,minimum recoverable from earlier setup code; exact version not invented
+quantization,4-bit NF4; double quantization; float16 compute,preserved v4/v5 runner source
+decoding,do_sample=False; attack max_new_tokens=120; benign max_new_tokens=80,preserved v4/v5 runner source
+input cap,2048 tokenized input positions with truncation in v5 runner,preserved v5 runner source
