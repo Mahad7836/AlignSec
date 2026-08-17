@@ -23,3 +23,7 @@ The technical analysis is frozen for the current manuscript. No additional LLM i
 
 ## Historical naming note
 Some frozen notebook run tags, output filenames, and metadata retain the historical `EAAI` development label. They are intentionally preserved because they identify the exact frozen analysis artifact. The current public repository is journal-neutral and the scientific results do not depend on the journal target.
+
+## Current repository metadata
+
+Current live repository paths are tracked in `metadata/repository_manifest.csv`, `metadata/current_repository_figure_index.csv`, and `metadata/current_repository_supplementary_manifest.csv`. The preserved historical technical-package manifest is retained separately as `metadata/historical_technical_package_manifest.csv`.

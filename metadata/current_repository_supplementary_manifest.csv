@@ -1,0 +1,12 @@
+supplementary_item,repository_path,purpose,recommended_for_release
+Final executed analysis notebook,analysis/AlignSec_Final_Analysis_EXECUTED.ipynb,Preserved executed notebook containing the frozen final analysis and outputs.,Yes
+Clean analysis notebook,analysis/AlignSec_Final_Analysis.ipynb,Executable analysis source using the frozen inputs.,Yes
+Frozen final analysis CSV,data/final_results.csv,"Primary 3,200-row analysis input verified by SHA-256.",Yes
+Frozen v4 benchmark,data/benchmark/frozen_alignsec_v4_benchmark.csv,Defines the 800 frozen benchmark items.,Yes
+Canonical response CSVs,data/canonical_responses/*.csv,Deduplicated per-model response records.,Yes
+Raw/historical response CSVs,data/raw_responses/*.csv,Historical or explicitly reconstructed raw-format response artifacts.,Yes
+Inference artifacts,inference/,Preserved Mistral and Zephyr/Llama-2 runners plus Qwen reconstruction and provenance evidence.,Yes
+Environment and provenance,metadata/; requirements.txt; requirements-inference.txt; environment.yml,"Documents artifact identity, supported environments, and provenance boundaries.",Yes
+Statistical figures,outputs/figures/*.pdf,Fifteen frozen statistical figures from the final analysis.,Yes
+Statistical tables,outputs/tables/*.csv,Forty-four frozen statistical/supporting tables from the final analysis.,Yes
+Explanatory diagrams,docs/figures/,"Journal-facing benchmark, workflow, and system-architecture diagrams with editable SVG source.",Yes
