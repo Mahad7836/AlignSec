@@ -7,6 +7,7 @@ This repository layout was rebuilt from the frozen AlignSec technical package wi
 Repository-level cleanup includes:
 
 - current-path model provenance with SHA-256 hashes;
+- release-relative provenance paths in the clean analysis source notebook, preventing reruns from emitting stale or missing artifact paths;
 - a current repository manifest and repository checksum list;
 - explicit separation of historical technical-package manifests from current repository metadata;
 - a data dictionary;

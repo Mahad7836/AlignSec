@@ -5,6 +5,8 @@ type: software
 authors:
   - family-names: "Aqeel"
     given-names: "Mahad"
+  - family-names: "Ali"
+    given-names: "Raja Hashim"
 repository-code: "https://github.com/Mahad7836/AlignSec"
 version: "0.9.0"
 date-released: "2026-08-17"
