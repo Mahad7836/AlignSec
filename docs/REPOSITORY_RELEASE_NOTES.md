@@ -16,7 +16,7 @@ Repository-level cleanup includes:
 - third-party attribution notes;
 - manuscript-to-artifact mapping;
 - an expanded integrity verifier;
-- explanatory manuscript diagrams and editable SVG sources;
+- publication-facing explanatory manuscript diagrams and editable PowerPoint sources;
 - a lightweight GitHub Actions verification workflow.
 
 Historical generated artifacts that contain the earlier `EAAI` development label are preserved unchanged where editing them would break traceability to the frozen analysis. Publication-facing documentation is journal-neutral and the associated manuscript is being prepared for the *Journal of Information Security and Applications (JISA)*.

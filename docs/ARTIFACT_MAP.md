@@ -29,3 +29,5 @@ This map helps reviewers and readers locate the repository artifacts correspondi
 | `docs/figures/benchmark_schema.pdf` | Benchmark schema and attack/benign example flow (Section 3.5) |
 | `docs/figures/evaluation_workflow.pdf` | End-to-end AlignSec evaluation workflow (Section 4.1) |
 | `docs/figures/system_architecture.pdf` | AlignSec security-evaluation system architecture (Section 4.2) |
+
+Editable PowerPoint sources for these three explanatory diagrams are preserved in `docs/figures/source/`.
